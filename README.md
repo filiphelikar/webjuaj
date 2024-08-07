@@ -1,39 +1,32 @@
-# create-svelte
+# Webjuaj
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![Webjuaj](https://raw.githubusercontent.com/filiphelikar/webjuaj/main/image.png "Webjuaj")
 
-## Creating a project
+Webjuaj is a chat application designed for interacting with a local AI. The app utilizes the Ollama HTTP API to communicate with a locally running Ollama service, displaying messages in a web-based user interface. Built with Svelte, Webjuaj offers a seamless and efficient chat experience with AI.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Project Overview
+
+Webjuaj allows users to chat with an AI running locally on their machine. The application leverages modern web technologies and efficient APIs to ensure responsive communication and an intuitive user experience.
+
+## Features
+
+- Real-time chat with a local AI.
+- Utilizes the Ollama HTTP API for efficient communication.
+- Responsive web UI built with Svelte.
+- Easy setup and deployment for local environments.
+
+## Getting Started
+
+This project is powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte), providing all the tools needed to build a Svelte project efficiently.
+
+### Creating a Project
+
+To create a new Svelte project, use the following commands:
 
 ```bash
-# create a new project in the current directory
+# Create a new project in the current directory
 npm create svelte@latest
 
-# create a new project in my-app
+# Create a new project in a specific directory
 npm create svelte@latest my-app
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-# webjuaj
